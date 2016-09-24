@@ -7,6 +7,7 @@ import com.entity.GroupMessage;
 import constant.DataType;
 
 public class Message implements Serializable{
+//数据类型
 private DataType type;
 private String content;
 private String time;
