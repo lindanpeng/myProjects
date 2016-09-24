@@ -1,0 +1,32 @@
+package com.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Friend {
+@Id
+@GeneratedValue
+private int id;
+private String userid;
+private String friendid;
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getUserid() {
+	return userid;
+}
+public void setUserid(String userid) {
+	this.userid = userid;
+}
+public String getFriendid() {
+	return friendid;
+}
+public void setFriendid(String friendid) {
+	this.friendid = friendid;
+}
+}
